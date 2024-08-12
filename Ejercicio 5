@@ -1,0 +1,4 @@
+horas_trabajadas = input("Introduce el número de horas trabajadas: ")
+coste_por_hora = input("Introduce el coste por hora: ")
+paga = float(horas_trabajadas) * float(coste_por_hora)
+print("La paga que te corresponde es:", paga)
